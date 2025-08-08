@@ -22,8 +22,8 @@ public class country {
 //		driver.findElement(By.linkText("United Kingdom")).click();
 
 		driver.findElement(By.linkText("Log In")).submit();
-		Thread.sleep(1000);
-		driver.findElement(By.id("mLogin")).sendKeys("apraveen5577@gmail.com");
+		Thread.sleep(6000);
+		driver.findElement(By.id("mLogin")).sendKeys("praveen.anbalagan@five9s-solutions.co.uk");
 		Thread.sleep(2000);
 		driver.findElement(By.id("mPassword")).sendKeys("praveena5775");
 		Thread.sleep(2000);
